@@ -1,0 +1,18 @@
+﻿<Window x:Class="SplatoonFanGame2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SplatoonFanGame2" Height="450" Width="800">
+    <Grid>
+        <Image Margin="-8,0,0,-2" Source="/Images/Background.png" Stretch="Fill"/>
+        <Button x:Name="StartGameButton" Content="Start Game!" HorizontalAlignment="Center" Margin="0,321,0,0" VerticalAlignment="Top" Height="38" Width="240" Click="StartGameButton_Click" IsEnabled="False"/>
+        <Button x:Name="Agent3Button" Content="Agent 3" HorizontalAlignment="Left" Margin="54,250,0,0" VerticalAlignment="Top" Width="171" Background="#FF87FF4A" Click="AgentButton_Click" BorderThickness="4"/>
+        <Button x:Name="Agent4Button" Content="Agent 4" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" Width="168" Background="#FFFCFF2B" Click="AgentButton_Click" BorderThickness="4"/>
+        <Button x:Name="Agent8Button" Content="Agent 8" HorizontalAlignment="Left" Margin="577,250,0,0" VerticalAlignment="Top" Width="172" Background="#FFFF24CA" Click="AgentButton_Click" BorderThickness="4"/>
+        <Image x:Name="Title" Margin="122,37,122,316" Source="/Images/text-1683474180190.png" Stretch="Fill" RenderTransformOrigin="0.512,1.447"/>
+        <MediaElement HorizontalAlignment="Left" Height="100" Margin="208,118,0,0" VerticalAlignment="Top" Width="100"/>
+        <MediaElement HorizontalAlignment="Left" Height="100" Margin="252,159,0,0" VerticalAlignment="Top" Width="100"/>
+
+
+
+    </Grid>
+</Window>

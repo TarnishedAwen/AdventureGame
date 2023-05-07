@@ -1,0 +1,16 @@
+﻿<Window x:Class="SplatoonFanGame2.DialogueWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dialogue" Height="450" Width="800">
+    
+    <Grid>
+
+        <TextBlock x:Name="DialogueText" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" Foreground="{Binding Color, Converter={StaticResource ColorToBrushConverter}}" />
+    </Grid>
+   
+
+
+</Window>
+<Window.Resources>
+    <local:ColorToBrushConverter x:Key="ColorToBrushConverter" />
+</Window.Resources>
